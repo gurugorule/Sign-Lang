@@ -9,17 +9,18 @@
  ```
  ## Steps
 <br />
-<b>Step 1.</b> Create a new virtual environment
-<b>Step 2.</b>  python -m venv tfod
+<b>Step 1. </b> Create a new virtual environment
 <br/>
-<b>Step 3.</b> Activate your virtual environment
-.\tfod\Scripts\activate # Windows 
+<b>Step 2. </b>  python -m venv env
+<br/>
+<b>Step 3. </b> Activate your virtual environment
+```.\tfod\Scripts\activate # Windows```
 <br/>
 <b>Step 4.</b> Install dependencies and add virtual environment to the Python Kernel
 <pre>
 python -m pip install --upgrade pip
 pip install ipykernel
-python -m ipykernel install --user --name=tfodj
+python -m ipykernel install --user --name=env
 </pre>
 <br/>
 
