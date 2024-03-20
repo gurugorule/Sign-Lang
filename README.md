@@ -1,11 +1,7 @@
 # Sign-LangI
 ## install 🦖
  ```
- pip install tensorflow 
- pip install opencv-python
- pip install numpy pandas matplotlib
- pip install wget
- pip install protobuf
+ pip install -r req.txt
  ```
  ## Steps
 <br />
